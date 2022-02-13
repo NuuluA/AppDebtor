@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2A01C127B7D86200713D69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A01C027B7D86200713D69 /* AppDelegate.swift */; };
+		1B2A01C327B7D86200713D69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A01C227B7D86200713D69 /* SceneDelegate.swift */; };
+		1B2A01C827B7D86200713D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A01C627B7D86200713D69 /* Main.storyboard */; };
+		1B2A01CA27B7D86400713D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A01C927B7D86400713D69 /* Assets.xcassets */; };
+		1B2A01CD27B7D86400713D69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2A01CB27B7D86400713D69 /* LaunchScreen.storyboard */; };
+		1B2A01D627B7E25900713D69 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A01D527B7E25900713D69 /* CornerRadius.swift */; };
+		1B2A01DA27B7ECF000713D69 /* DebtListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A01D927B7ECF000713D69 /* DebtListViewController.swift */; };
+		1B2A01DC27B7ECF700713D69 /* CreatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A01DB27B7ECF700713D69 /* CreatViewController.swift */; };
+		1B2A01DE27B7ED6900713D69 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A01DD27B7ED6900713D69 /* MainViewController.swift */; };
+		1B2A01E227B7F95500713D69 /* Instantiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A01E127B7F95500713D69 /* Instantiate.swift */; };
+		1B2A01E927B8025E00713D69 /* MyDebtListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A01E827B8025E00713D69 /* MyDebtListViewController.swift */; };
+		1B2A01F327B8B2F500713D69 /* DebtListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A01F227B8B2F500713D69 /* DebtListTableViewCell.swift */; };
+		1B2A01F527B8B90300713D69 /* MyDebtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A01F427B8B90300713D69 /* MyDebtTableViewCell.swift */; };
+		1B2A01FB27B92C2000713D69 /* Debtor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A01FA27B92C2000713D69 /* Debtor.swift */; };
+		1B2A01FD27B944EC00713D69 /* MyDeptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A01FC27B944EC00713D69 /* MyDeptor.swift */; };
+		F1862EAC131CA4C0BFD0AA9D /* Pods_Debtor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FC0685F8AD9532DAFCA45B /* Pods_Debtor.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B2A01BD27B7D86200713D69 /* Debtor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Debtor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2A01C027B7D86200713D69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B2A01C227B7D86200713D69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1B2A01C727B7D86200713D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B2A01C927B7D86400713D69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B2A01CC27B7D86400713D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B2A01CE27B7D86400713D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B2A01D527B7E25900713D69 /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		1B2A01D927B7ECF000713D69 /* DebtListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtListViewController.swift; sourceTree = "<group>"; };
+		1B2A01DB27B7ECF700713D69 /* CreatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatViewController.swift; sourceTree = "<group>"; };
+		1B2A01DD27B7ED6900713D69 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1B2A01E127B7F95500713D69 /* Instantiate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instantiate.swift; sourceTree = "<group>"; };
+		1B2A01E827B8025E00713D69 /* MyDebtListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDebtListViewController.swift; sourceTree = "<group>"; };
+		1B2A01F227B8B2F500713D69 /* DebtListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtListTableViewCell.swift; sourceTree = "<group>"; };
+		1B2A01F427B8B90300713D69 /* MyDebtTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDebtTableViewCell.swift; sourceTree = "<group>"; };
+		1B2A01FA27B92C2000713D69 /* Debtor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debtor.swift; sourceTree = "<group>"; };
+		1B2A01FC27B944EC00713D69 /* MyDeptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDeptor.swift; sourceTree = "<group>"; };
+		1F7264FD4281E9CBABC0121F /* Pods-Debtor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debtor.debug.xcconfig"; path = "Target Support Files/Pods-Debtor/Pods-Debtor.debug.xcconfig"; sourceTree = "<group>"; };
+		494329832924BC99E2D95534 /* Pods-Debtor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debtor.release.xcconfig"; path = "Target Support Files/Pods-Debtor/Pods-Debtor.release.xcconfig"; sourceTree = "<group>"; };
+		A5FC0685F8AD9532DAFCA45B /* Pods_Debtor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Debtor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B2A01BA27B7D86200713D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1862EAC131CA4C0BFD0AA9D /* Pods_Debtor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2A01B427B7D86200713D69 = {
+			isa = PBXGroup;
+			children = (
+				1B2A01BF27B7D86200713D69 /* Debtor */,
+				1B2A01BE27B7D86200713D69 /* Products */,
+				6D15EFFA90225E52E1C8DF3F /* Pods */,
+				E73BD1C8EE09F9AF2655E530 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B2A01BE27B7D86200713D69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A01BD27B7D86200713D69 /* Debtor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B2A01BF27B7D86200713D69 /* Debtor */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A01D427B7E24100713D69 /* AppDelegate */,
+				1B2A01EA27B8220800713D69 /* Cells */,
+				1B2A01E327B7FC2200713D69 /* Model */,
+				1B2A01D727B7ECC500713D69 /* Extension */,
+				1B2A01D827B7ECCD00713D69 /* Controllers */,
+				1B2A01C627B7D86200713D69 /* Main.storyboard */,
+				1B2A01C927B7D86400713D69 /* Assets.xcassets */,
+				1B2A01CB27B7D86400713D69 /* LaunchScreen.storyboard */,
+				1B2A01CE27B7D86400713D69 /* Info.plist */,
+			);
+			path = Debtor;
+			sourceTree = "<group>";
+		};
+		1B2A01D427B7E24100713D69 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A01C027B7D86200713D69 /* AppDelegate.swift */,
+				1B2A01C227B7D86200713D69 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1B2A01D727B7ECC500713D69 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A01D527B7E25900713D69 /* CornerRadius.swift */,
+				1B2A01E127B7F95500713D69 /* Instantiate.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1B2A01D827B7ECCD00713D69 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A01DD27B7ED6900713D69 /* MainViewController.swift */,
+				1B2A01D927B7ECF000713D69 /* DebtListViewController.swift */,
+				1B2A01DB27B7ECF700713D69 /* CreatViewController.swift */,
+				1B2A01E827B8025E00713D69 /* MyDebtListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1B2A01E327B7FC2200713D69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A01FA27B92C2000713D69 /* Debtor.swift */,
+				1B2A01FC27B944EC00713D69 /* MyDeptor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B2A01EA27B8220800713D69 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A01F227B8B2F500713D69 /* DebtListTableViewCell.swift */,
+				1B2A01F427B8B90300713D69 /* MyDebtTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6D15EFFA90225E52E1C8DF3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F7264FD4281E9CBABC0121F /* Pods-Debtor.debug.xcconfig */,
+				494329832924BC99E2D95534 /* Pods-Debtor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E73BD1C8EE09F9AF2655E530 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5FC0685F8AD9532DAFCA45B /* Pods_Debtor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B2A01BC27B7D86200713D69 /* Debtor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B2A01D127B7D86400713D69 /* Build configuration list for PBXNativeTarget "Debtor" */;
+			buildPhases = (
+				C54540FCBE9E0D865DEE25FE /* [CP] Check Pods Manifest.lock */,
+				1B2A01B927B7D86200713D69 /* Sources */,
+				1B2A01BA27B7D86200713D69 /* Frameworks */,
+				1B2A01BB27B7D86200713D69 /* Resources */,
+				58B2DA8187E6596576DF28AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Debtor;
+			productName = Debtor;
+			productReference = 1B2A01BD27B7D86200713D69 /* Debtor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B2A01B527B7D86200713D69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1B2A01BC27B7D86200713D69 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B2A01B827B7D86200713D69 /* Build configuration list for PBXProject "Debtor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B2A01B427B7D86200713D69;
+			productRefGroup = 1B2A01BE27B7D86200713D69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B2A01BC27B7D86200713D69 /* Debtor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B2A01BB27B7D86200713D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2A01CD27B7D86400713D69 /* LaunchScreen.storyboard in Resources */,
+				1B2A01CA27B7D86400713D69 /* Assets.xcassets in Resources */,
+				1B2A01C827B7D86200713D69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58B2DA8187E6596576DF28AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Debtor/Pods-Debtor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Debtor/Pods-Debtor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Debtor/Pods-Debtor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C54540FCBE9E0D865DEE25FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Debtor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B2A01B927B7D86200713D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2A01C127B7D86200713D69 /* AppDelegate.swift in Sources */,
+				1B2A01DC27B7ECF700713D69 /* CreatViewController.swift in Sources */,
+				1B2A01FB27B92C2000713D69 /* Debtor.swift in Sources */,
+				1B2A01D627B7E25900713D69 /* CornerRadius.swift in Sources */,
+				1B2A01DE27B7ED6900713D69 /* MainViewController.swift in Sources */,
+				1B2A01FD27B944EC00713D69 /* MyDeptor.swift in Sources */,
+				1B2A01F527B8B90300713D69 /* MyDebtTableViewCell.swift in Sources */,
+				1B2A01E227B7F95500713D69 /* Instantiate.swift in Sources */,
+				1B2A01F327B8B2F500713D69 /* DebtListTableViewCell.swift in Sources */,
+				1B2A01DA27B7ECF000713D69 /* DebtListViewController.swift in Sources */,
+				1B2A01E927B8025E00713D69 /* MyDebtListViewController.swift in Sources */,
+				1B2A01C327B7D86200713D69 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B2A01C627B7D86200713D69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B2A01C727B7D86200713D69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B2A01CB27B7D86400713D69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B2A01CC27B7D86400713D69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B2A01CF27B7D86400713D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B2A01D027B7D86400713D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B2A01D227B7D86400713D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7264FD4281E9CBABC0121F /* Pods-Debtor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BP2NRQ599;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Debtor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsite.Debtor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B2A01D327B7D86400713D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494329832924BC99E2D95534 /* Pods-Debtor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BP2NRQ599;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Debtor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsite.Debtor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B2A01B827B7D86200713D69 /* Build configuration list for PBXProject "Debtor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2A01CF27B7D86400713D69 /* Debug */,
+				1B2A01D027B7D86400713D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B2A01D127B7D86400713D69 /* Build configuration list for PBXNativeTarget "Debtor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2A01D227B7D86400713D69 /* Debug */,
+				1B2A01D327B7D86400713D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B2A01B527B7D86200713D69 /* Project object */;
+}
